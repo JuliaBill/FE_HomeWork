@@ -1,0 +1,24 @@
+/* 
+  inline styles/important  1 0 0 0
+  id                       0 1 0 0
+  class / [attr=value]     0 0 1 0
+  tag                      0 0 0 1
+  *                        0 0 0 0
+  
+*/
+
+.info {
+  color: aquamarine;
+}
+
+p {
+  color: red;
+}
+
+#text {
+  color: blue
+}
+
+* {
+  color: azure;
+}

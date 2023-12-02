@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #5636f4;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li a {
+  padding: 8px 16px;
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+}
+nav ul li a:hover {
+  background-color: rgb(179, 245, 232);
+  color: black;
+}
+.active {
+  background-color: white;
+  color: black;
+}

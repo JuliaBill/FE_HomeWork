@@ -1,0 +1,31 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+.main {
+  display: flex;
+  width: 80%;
+  border: 2px solid;
+  height: 800px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+article {
+  border: 2px solid red;
+  width: 20%;
+  background-color: aqua;
+}
+/* .block1 {
+  flex: 2;
+  order: 2;
+}
+.block2 {
+  flex: 1;
+  order: 3;
+}
+.block3 {
+  flex: 1;
+  order: 1;
+} */

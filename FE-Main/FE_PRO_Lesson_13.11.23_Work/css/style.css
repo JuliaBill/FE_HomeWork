@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+.main {
+  display: flex;
+  width: 80%;
+  border: 1px solid;
+  height: 800px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+article {
+  border: 1px solid whitesmoke;
+  width: 30%;
+  height: 50%;
+  background-color: gray;
+}
+
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* .block1 {
+  flex: 2;
+  order: 2;
+}
+.block2 {
+  flex: 1;
+  order: 3;
+}
+.block3 {
+  flex: 1;
+  order: 1;
+} */

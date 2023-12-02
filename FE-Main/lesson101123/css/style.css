@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  display: inline;
+}
+
+#before-span {
+  color: red;
+}
+
+.lorem-paragraph {
+  background: wheat;
+}
+
+img {
+  display: block;
+}
+
+#google-link {
+  background: wheat;
+}
