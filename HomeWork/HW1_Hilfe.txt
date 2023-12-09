@@ -1,0 +1,46 @@
+<main>
+       <div class="container">
+        <div class="post">
+            <div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, facere.</p>
+            </div>
+            <div><img src="./img/1.jpg" alt=""></div>
+        </div>
+       </div>
+       <div class="bg-gray">
+        <div class="container">
+            <div class="post flex-reverse">
+                <div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, facere.</p>
+                </div>
+                <div><img src="./img/1.jpg" alt=""></div>
+            </div>
+          </div>
+       </div>
+    </main>
+
+
+nav ul {
+    display: flex;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+header{ 
+    text-align: center;
+}
+
+.bg-gray {
+    background-color: #ccc;
+}
+
+.post {
+    display: flex;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;
+}

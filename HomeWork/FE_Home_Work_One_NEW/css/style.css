@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  background-color: #f44336;
+  box-shadow: rgba(149, 157, 165, 0.2) 8px 8px 24px;
+  height: 51px;
+  position: fixed;
+  width: 100%;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li a {
+  padding: 12px 24px;
+  display: block;
+  text-decoration: none;
+  color: aliceblue;
+
+  font-size: 18px;
+  line-height: 1.5;
+}
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.active {
+  background-color: white;
+  color: black;
+}
+header {
+  background-color: #f44336;
+  padding: o auto;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+header h1 {
+  font-size: 64px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 146px 0 16px;
+}
+header p {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+  padding: 16px 0 28px;
+}
+.btn {
+  color: #ffffff;
+  background-color: black;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 24px;
+  margin-bottom: 146px;
+  border-style: none;
+}
+
+main {
+  padding: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  padding: 64px 0;
+  margin: 0 auto;
+  max-width: 980px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  padding: 32px 10px;
+  font-weight: 400;
+  font-size: 36px;
+}
+.first {
+  max-width: 654px;
+  padding: 20px 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.second {
+  padding: 20px 10px;
+  max-width: 654px;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #757575;
+  line-height: 1.5;
+}
+
+.anchor {
+  color: #f44336;
+  font-size: 200px;
+  text-align: justify;
+  padding: 64px;
+}
+.background-gray {
+  background-color: #f1f1f1;
+}
+.background-gray > .container {
+  flex-direction: row-reverse;
+}
+.coffee {
+  color: #f44336;
+  font-size: 200px;
+  text-align: justify;
+  padding: 64px;
+}
+
+.quote-of-the-day {
+  color: #ffffff;
+  background-color: #615d5d;
+  font-size: 24px;
+  text-align: center;
+  padding: 80px 16px;
+}
+
+footer {
+  padding: 80px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+footer ul li {
+  color: #615d5d;
+  font-size: 24px;
+  padding: 15px 3px;
+}
+footer p {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  padding: 30px;
+  color: #615d5d;
+}
