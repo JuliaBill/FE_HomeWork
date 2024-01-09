@@ -2,35 +2,35 @@
 //   isToggle = true;
 // // let isToggle = false;
 
-// function zoom() {
-//   if (isToggle) {
-//     image.style.width = "300px";
-//     image.style.height = "300px";
+function zoom() {
+  if (isToggle) {
+    image.style.width = "300px";
+    image.style.height = "300px";
 
-//     // isToggle = false;
-//   } else {
-//     image.style.width = "200px";
-//     image.style.height = "200px";
+    // isToggle = false;
+  } else {
+    image.style.width = "200px";
+    image.style.height = "200px";
 
-//     // isToggle = true;
-//   }
+    // isToggle = true;
+  }
 
-//   isToggle = !isToggle;
-// }
+  isToggle = !isToggle;
+}
 
-// let image = document.querySelector(".gallery > img");
-// let count = 1;
+let image = document.querySelector(".gallery > img");
+let count = 1;
 
-// function next() {
-//   count++;
-//   //   console.log("next", count);
-//   //   image.src = `./img/img${count}.jpg`;
+function next() {
+  count++;
+  //   console.log("next", count);
+  //   image.src = `./img/img${count}.jpg`;
 
-//   if (count > 5) {
-//     count = 1;
-//   }
-//   image.src = `./img/img${count}.jpg`; //
-// }
+  if (count > 5) {
+    count = 1;
+  }
+  image.src = `./img/img${count}.jpg`; //
+}
 
 // for (let i = 0; i < 10; i++) {
 //   console.log(i);

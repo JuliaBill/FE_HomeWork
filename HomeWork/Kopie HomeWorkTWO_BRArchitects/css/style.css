@@ -8,14 +8,11 @@
   position: fixed;
   padding: 8px 16px;
   background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
 }
 .navbar__content {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  /* flex-direction: row; */
 }
 nav ul div {
   list-style: none;
